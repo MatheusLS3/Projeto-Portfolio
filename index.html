@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link da fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <!--Link dos icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Link do css-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Portfolio-Matheus</title>
+</head>
+<body>
+
+<header>
+    <div class="center">
+        <h1 class="logo">Matheus<span>Lucena</span></h1>
+
+        <nav class="menu-lista">
+            <ul class="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#formacoes">Formações</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+
+        <div class="btn-dark">
+            <i id="mode_icon" class="fa-solid fa-moon"></i>
+        </div>
+
+        <div class="btn-abrir-menu" id="btn-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#formacoes">Formações</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="overlay-menu" id="overlay-menu"></div>
+    </div>
+</header>
+
+<main id="mai">
+    <section class="inicio">
+        <div class="center">
+            <div class="img-perfil">
+                <img src="./assets/img/Matheus.png" alt="Perfil Matheus">
+            </div>
+            <div id="sobre" class="sobre">
+                <h1>Desenvolvedor Full-Stack <span>.</span></h1>
+                <p>Olá, me chamo Matheus Lucena, no momento estou me graduando no curso em <b>Análise e Desenvolvimento de Sistema</b> pela faculdade FIAP. Desde cedo sou apaixonado pela área da tecnologia e estou sempre em busca de novas oportunidades para aperfeiçoar minhas habilidades e trabalhar em projetos desafiadores. Principais tecnologias: <b>HTML, CSS e JavaScript</b>. Conhecimentos básicos: <b>Java, React.js, Python, Kotlin e NodeJS</b>.</p>
+                <div class="icone">
+                    <a href="https://wa.me/5574999779343" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/matheus-lucena-949662171/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/MatheusLS3" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="linha-1"></div>
+
+    <section id="projetos" class="projetos">
+        <div class="center">
+            <div>
+                <h2 class="titulo">Projetos</h2>
+                <div class="linha-2"></div>
+                <div class="coluna">
+                    <div class="text">
+                        <img src="./assets/img/E-Commerce.png" alt="E-Commerce">
+                        <div class="titulo-projetos">E-Commerce</div>
+                        <div class="icones-projetos">
+                            <a href="https://matheusls3.github.io/Projeto-E-Commerce/" target="_blank"><i class="fa-regular fa-eye"></i></a>
+                            <a href="https://github.com/MatheusLS3/Projeto-E-Commerce" target="_blank"><i class="fa-solid fa-code"></i></a>
+                        </div>
+                        <div class="paragrafo-projetos">
+                            <p>Site desenvolvido para melhorar minhas habilidades, onde criei um projeto de um site e-commerce de joias.</p>
+                            <p class="linguagens-projetos">HTML - CSS - JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <img src="./assets/img/To-Do-Avançado.png" alt="To-do-Avançado">
+                        <div class="titulo-projetos">To-do-Avançado</div>
+                        <div class="icones-projetos">
+                            <a href="https://matheusls3.github.io/Projeto-To-Do-Avancado/" target="_blank"><i class="fa-regular fa-eye"></i></a>
+                            <a href="https://github.com/MatheusLS3/Projeto-To-Do-Avancado" target="_blank"><i class="fa-solid fa-code"></i></a>
+                        </div>
+                        <div class="paragrafo-projetos">
+                            <p>Site de um to-do list com funcionalidades avançadas, com inspiração no projeto do canal Hora de Codar.</p>
+                            <p class="linguagens-projetos">HTML - CSS - JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <img src="./assets/img/Akatsuki.png" alt="Akatsuki">
+                        <div class="titulo-projetos">Akatsuki</div>
+                        <div class="icones-projetos">
+                            <a href="https://matheusls3.github.io/Projeto-Akatsuki/" target="_blank"><i class="fa-regular fa-eye"></i></a>
+                            <a href="https://github.com/MatheusLS3/Projeto-Akatsuki" target="_blank"><i class="fa-solid fa-code"></i></a>
+                        </div>
+                        <div class="paragrafo-projetos">
+                            <p>Projeto de um site com efeitos bem dinâmicos e prático com animações carrossel e muito mais, projeto pegando base no site do canal Leo Vargas.</p>
+                            <p class="linguagens-projetos">HTML - CSS - JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <img src="./assets/img/Formulario.png" alt="Formulario">
+                        <div class="titulo-projetos">Formulário</div>
+                        <div class="icones-projetos">
+                            <a href="https://matheusls3.github.io/Projeto-Formulario/login.html" target="_blank"><i class="fa-regular fa-eye"></i></a>
+                            <a href="https://github.com/MatheusLS3/Projeto-Formulario" target="_blank"><i class="fa-solid fa-code"></i></a>
+                        </div>
+                        <div class="paragrafo-projetos">
+                            <p>Site de um formulário com modos light e dark, desenvolvido com base no canal da Larissa Kich.</p>
+                            <p class="linguagens-projetos">HTML - CSS - JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <img src="./assets/img/Calculadora-IMC.png" alt="Calculadora-IMC">
+                        <div class="titulo-projetos">Calculadora-IMC</div>
+                        <div class="icones-projetos">
+                            <a href="https://matheusls3.github.io/Projeto-Calculadora-IMC/" target="_blank"><i class="fa-regular fa-eye"></i><a>
+                            <a href="https://github.com/MatheusLS3/Projeto-Calculadora-IMC" target="_blank"><i class="fa-solid fa-code"></i></a>
+                        </div>
+                        <div class="paragrafo-projetos">
+                            <p>Projeto onde mostra o IMC e mais outras funcionalidades da pessoa ao digitar seu peso, sua altura e seu nome, desenvolvido com base no canal do Fernando Leonid.</p>
+                            <p class="linguagens-projetos">HTML - CSS - JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <img src="./assets/img/AluraMidi.png" alt="Alura Midi">
+                        <div class="titulo-projetos">Alura Midia</div>
+                        <div class="icones-projetos">
+                            <a href="https://matheusls3.github.io/Projeto-AluraMidia/" target="_blank"><i class="fa-regular fa-eye"></i></a>
+                            <a href="https://github.com/MatheusLS3/Projeto-AluraMidia" target="_blank"><i class="fa-solid fa-code"></i></a>
+                        </div>
+                        <div class="paragrafo-projetos">
+                            <p>Projeto que mostra vários tipos de sons, desenvolvido com base no curso Alura.</p>
+                            <p class="linguagens-projetos">HTML - CSS - JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="projetos-btn">
+                    <a href="./projects.html"><b>Ver mais</b></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="linha-1"></div>
+
+    <section id="formacoes">
+        <div class="center">
+            <div>
+                <h2 class="titulo">Formações</h2>
+                <div class="linha-2"></div>
+                <div class="gallery">
+                    <div class="gallery-container">
+                        <img class="gallery-item gallery-item-1" src="./assets/img/Certificado-1.png" data-index="1">
+                        <img class="gallery-item gallery-item-2" src="./assets/img/Certificado-2.png" data-index="2">
+                        <img class="gallery-item gallery-item-3" src="./assets/img/Certificado-3.png" data-index="3">
+                        <img class="gallery-item gallery-item-4" src="./assets/img/Certificado-4.png" data-index="4">
+                        <img class="gallery-item gallery-item-5" src="./assets/img/Certificado-5.png" data-index="5">
+                        <img class="gallery-item" src="./assets/img/Certificado-6.png" data-index="6">
+                    </div>
+                    <div class="gallery-controls"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="linha-1"></div>
+
+    <section id="contatos">
+        <div class="center">
+            <div>
+                <h2 class="titulo">Contatos</h2>
+                <div class="linha-2"></div>
+                <div class="colunas">
+                    <div class="coluna1">
+                        <h1>Matheus<span>Lucena</span></h1>
+                        <a href="https://wa.me/5574999779343" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/MatheusLS3" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/matheus-lucena-949662171/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="coluna2">
+                        <p><b>Whatsapp:</b><a href="#"> (74)99977-9343</p></a>
+                        <p><b>Email:</b><a href="#"> matheuslucenatt@gmail.com</a></p>
+                        <p><b>Endereço:</b> Rua Oscar Cintra Gordinho - Liberdade - 151, Centro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>₢ 2024 - Desenvolvido por <a href="#" target="_blank">@MatheusLucena</a></p>
+</footer>
+
+<script src="./assets/js/main.js"></script>
+
+</body>
+</html>
